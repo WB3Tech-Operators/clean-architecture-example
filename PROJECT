@@ -1,0 +1,6 @@
+domain: wb3tech.com
+layout:
+- go.kubebuilder.io/v3
+projectName: clean-architecture-example
+repo: github.com/WB3Tech-Operators/clean-architecture-example
+version: "3"
