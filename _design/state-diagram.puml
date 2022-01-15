@@ -1,0 +1,14 @@
+@startuml
+
+
+state NoUsers as "No Users"
+state HasUsers as "Has Users"
+
+[*] --> NoUsers
+NoUsers --> HasUsers : Add User
+HasUsers --> HasUsers : Add User
+HasUsers --> HasUsers : Remove User
+HasUsers --> NoUsers : Remove User
+ 
+
+@enduml

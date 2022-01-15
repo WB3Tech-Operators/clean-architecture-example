@@ -1,0 +1,6 @@
+@startuml
+
+(Create User) as ucCrUsr
+(Remove User) as ucRmUsr
+
+@enduml
